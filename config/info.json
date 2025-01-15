@@ -5,7 +5,7 @@
   "layouts": {
     "LAYOUT_split_3x6_3": {
       "layout": [
-        // ---------------- ROW 0 ----------------
+       
         { "label":"Esc",   "row":0,"col":0,"x":0,"y":0 },
         { "label":"Q",     "row":0,"col":1,"x":1,"y":0 },
         { "label":"W",     "row":0,"col":2,"x":2,"y":0 },
@@ -13,8 +13,7 @@
         { "label":"R",     "row":0,"col":4,"x":4,"y":0 },
         { "label":"T",     "row":0,"col":5,"x":5,"y":0 },
 
-        // Espaço “físico” entre as metades (pode pôr um dummy se quiser)
-        // Continue as colunas na segunda metade
+ 
         { "label":"Y",     "row":0,"col":6,"x":9,"y":0 },
         { "label":"U",     "row":0,"col":7,"x":10,"y":0 },
         { "label":"I",     "row":0,"col":8,"x":11,"y":0 },
@@ -22,7 +21,6 @@
         { "label":"P",     "row":0,"col":10,"x":13,"y":0 },
         { "label":"Bksp",  "row":0,"col":11,"x":14,"y":0 },
 
-        // ---------------- ROW 1 ----------------
         { "label":"LShift","row":1,"col":0,"x":0,"y":1 },
         { "label":"A",     "row":1,"col":1,"x":1,"y":1 },
         { "label":"S",     "row":1,"col":2,"x":2,"y":1 },
@@ -37,7 +35,6 @@
         { "label":"Ç",     "row":1,"col":10,"x":13,"y":1 },
         { "label":"PrtSc", "row":1,"col":11,"x":14,"y":1 },
 
-        // ---------------- ROW 2 ----------------
         { "label":"LCtrl", "row":2,"col":0,"x":0,"y":2 },
         { "label":"Z",     "row":2,"col":1,"x":1,"y":2 },
         { "label":"X",     "row":2,"col":2,"x":2,"y":2 },
@@ -52,10 +49,7 @@
         { "label":":",     "row":2,"col":10,"x":13,"y":2 },
         { "label":".",     "row":2,"col":11,"x":14,"y":2 },
 
-        // ---------------- POLEGARES (ROW 3) ----------------
-        // Em muitos layouts do Corne, as teclas de polegar entram em LAYOUT_split_3x6_3 como
-        // col=0..2 no lado esquerdo e col=3..5 no lado direito. Mas pode variar.
-        // Vou dar um exemplo de 6 colunas (0..5) só para fins de "slot".
+
         { "label":"TD(3)", "row":3,"col":0,"x": 2.5,"y": 3 },
         { "label":"TD(0)", "row":3,"col":1,"x": 3.5,"y": 3 },
         { "label":"Space", "row":3,"col":2,"x": 5,"y":   3 },
